@@ -1,4 +1,4 @@
 #!/bin/sh
-echo "ok"
->&2 echo "error"
-exit 1
+echo "stdout ok"
+>&2 echo "stderr bad"
+exit 25
