@@ -52,6 +52,5 @@ Exited with 10
 
 ```
 go build
-go install
-chmod 755 /root/go/bin/chronic
+chmod 755 /opt/chronic/chronic
 ```
