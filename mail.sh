@@ -1,6 +1,6 @@
 #!/bin/sh
 
-output=$(/opt/chronic/chronic $@)
+output=$(/opt/chronic/chronic "$@")
 
 ec=$?
 
